@@ -15,4 +15,6 @@ public interface SysUserDao extends BaseMapper<SysUserEntity> {
      * 根据用户名，查询系统用户
      */
     SysUserEntity queryByUserName(String username);
+
+    SysUserEntity queryByUserId(Long userId);
 }

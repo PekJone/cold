@@ -15,6 +15,7 @@
     <modules>
         <module>cold-common</module>
         <module>cold-eureka</module>
+        <module>cold-user</module>
     </modules>
 
     <properties>
