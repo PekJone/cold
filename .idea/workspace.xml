@@ -4,16 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b848ee66-4c8f-4271-8e32-354b44b81b2a" name="Changes" comment="初始话提交注册中心和公共组件">
-      <change afterPath="$PROJECT_DIR$/cold-common/src/main/java/com/ithema/cold/common/utils/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cold-common/src/main/java/com/ithema/cold/common/utils/JedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cold-common/src/main/java/com/ithema/cold/common/utils/PageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cold-common/src/main/java/com/ithema/cold/common/utils/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cold-common/src/main/java/com/ithema/cold/common/utils/SerializeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cold-common/src/main/java/com/ithema/cold/common/utils/SpringContextUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cold-common/src/main/java/com/ithema/cold/common/utils/TokenGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cold-common/src/main/java/com/ithema/cold/common/utils/ValidatorUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cold-common/src/main/java/com/ithema/cold/common/utils/YmlUtil.java" afterDir="false" />
+    <list default="true" id="b848ee66-4c8f-4271-8e32-354b44b81b2a" name="Changes" comment="用户服务">
+      <change afterPath="$PROJECT_DIR$/cold-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cold-gateway/src/main/java/com/ithema/cold/gateway/ColdGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cold-gateway/src/main/java/com/ithema/cold/gateway/common/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cold-gateway/src/main/java/com/ithema/cold/gateway/common/GatewayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cold-gateway/src/main/java/com/ithema/cold/gateway/common/TokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cold-gateway/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cold-gateway/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cold-user/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cold-user/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/cold-gateway.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/cold-eureka.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/cold-eureka.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/cold-user.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/cold-user.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -54,24 +61,37 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/tool/mongdbdata/Springboot3/cold-manager/cold-common/src/main/java/com/ithema/cold/common/utils",
+    "jdk.selected.JAVA_MODULE": "1.8 (2)",
+    "last_opened_file_path": "D:/tool/mongdbdata/Springboot3/cold-manager/cold-gateway/src/main/java/com/ithema/cold/gateway/common",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+    "settings.editor.selected.configurable": "preferences.fileTypes"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\tool\mongdbdata\Springboot3\cold-manager\cold-gateway\src\main\java\com\ithema\cold\gateway\common" />
+      <recent name="D:\tool\mongdbdata\Springboot3\cold-manager\cold-gateway\src\main\resources" />
+      <recent name="D:\tool\mongdbdata\Springboot3\cold-manager\cold-user\src\main\resources\mapper" />
+      <recent name="D:\tool\mongdbdata\Springboot3\cold-manager\cold-user\src\main\resources" />
       <recent name="D:\tool\mongdbdata\Springboot3\cold-manager\cold-common\src\main\java\com\ithema\cold\common\utils" />
-      <recent name="D:\tool\mongdbdata\Springboot3\cold-manager\cold-common\src\main\java\com\ithema\cold\common" />
-      <recent name="D:\tool\mongdbdata\Springboot3\cold-manager\cold-common\src\main\java\com\ithema\cold\common\netty" />
-      <recent name="D:\tool\mongdbdata\Springboot3\cold-manager\cold-common\src\main\java\com\ithema\cold\common\admin\dao" />
-      <recent name="D:\tool\mongdbdata\Springboot3\cold-manager\cold-common\src\main\java\com\ithema\cold\common\job\entity" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.UserApplication">
+    <configuration name="ColdGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ithema.cold.gateway.ColdGatewayApplication" />
+      <module name="cold-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ithema.cold.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.itheima.cold.eureka.EurekaApplication" />
       <module name="cold-eureka" />
@@ -85,8 +105,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.cold.user.UserApplication" />
+      <module name="cold-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.cold.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserApplication" />
+        <item itemvalue="Application.ColdGatewayApplication" />
         <item itemvalue="Application.EurekaApplication" />
       </list>
     </recent_temporary>
@@ -107,12 +142,38 @@
       <option name="project" value="LOCAL" />
       <updated>1751614350133</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="初始话提交注册中心和公共组件">
+      <created>1751616482817</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1751616482817</updated>
+    </task>
+    <task id="LOCAL-00003" summary="用户服务">
+      <created>1751704873286</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751704873286</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="初始话提交注册中心和公共组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始话提交注册中心和公共组件" />
+    <MESSAGE value="用户服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户服务" />
   </component>
 </project>

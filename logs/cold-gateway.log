@@ -147,3 +147,16 @@ java.lang.IllegalStateException: Shutdown in progress
 2025-07-05 17:29:20.880 INFO  [main] o.s.b.w.e.netty.NettyWebServer[76] - Netty started on port(s): 8080
 2025-07-05 17:29:20.881 INFO  [main] o.s.c.n.e.s.EurekaAutoServiceRegistration[145] - Updating port to 8080
 2025-07-05 17:29:20.882 INFO  [main] c.i.c.gateway.ColdGatewayApplication[59] - Started ColdGatewayApplication in 3.478 seconds (JVM running for 3.865)
+2025-07-05 17:32:10.834 INFO  [reactor-http-nio-3] c.n.config.ChainedDynamicProperty[115] - Flipping property: cold-user.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2025-07-05 17:32:10.858 INFO  [reactor-http-nio-3] c.n.u.c.ShutdownEnabledTimer[58] - Shutdown hook installed for: NFLoadBalancer-PingTimer-cold-user
+2025-07-05 17:32:10.859 INFO  [reactor-http-nio-3] c.n.loadbalancer.BaseLoadBalancer[197] - Client: cold-user instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=cold-user,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2025-07-05 17:32:10.863 INFO  [reactor-http-nio-3] c.n.l.DynamicServerListLoadBalancer[222] - Using serverListUpdater PollingServerListUpdater
+2025-07-05 17:32:10.876 INFO  [reactor-http-nio-3] c.n.config.ChainedDynamicProperty[115] - Flipping property: cold-user.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2025-07-05 17:32:10.878 INFO  [reactor-http-nio-3] c.n.l.DynamicServerListLoadBalancer[150] - DynamicServerListLoadBalancer for client cold-user initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=cold-user,current list of Servers=[DESKTOP-THE2ARB:8185],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:DESKTOP-THE2ARB:8185;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@3650cd0d
+2025-07-05 17:32:11.875 INFO  [PollingServerListUpdater-0] c.n.config.ChainedDynamicProperty[115] - Flipping property: cold-user.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2025-07-05 17:34:20.543 INFO  [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver[43] - Resolving eureka endpoints via configuration
+2025-07-05 17:34:36.220 INFO  [reactor-http-nio-3] c.i.cold.gateway.common.TokenFilter[26] - token 为空
+2025-07-05 17:34:48.688 INFO  [reactor-http-nio-3] c.i.cold.gateway.common.TokenFilter[26] - token 为空
+2025-07-05 17:39:20.552 INFO  [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver[43] - Resolving eureka endpoints via configuration

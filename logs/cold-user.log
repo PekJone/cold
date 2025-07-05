@@ -1692,3 +1692,5 @@ org.apache.ibatis.binding.BindingException: Invalid bound statement (not found):
 2025-07-05 17:32:10.961 INFO  [http-nio-8185-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
 2025-07-05 17:32:11.165 INFO  [http-nio-8185-exec-1] c.i.c.u.c.SysLoginController[46] - admin用户登录成功
 2025-07-05 17:32:29.547 INFO  [http-nio-8185-exec-8] c.i.c.u.c.SysLoginController[61] - admin用户退出登录
+2025-07-05 17:34:37.836 INFO  [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver[43] - Resolving eureka endpoints via configuration
+2025-07-05 17:39:37.852 INFO  [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver[43] - Resolving eureka endpoints via configuration
