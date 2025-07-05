@@ -158,3 +158,137 @@
 2025-07-05 15:16:41.361 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 8001 (http) with context path ''
 2025-07-05 15:16:41.362 INFO  [main] o.s.c.n.e.s.EurekaAutoServiceRegistration[145] - Updating port to 8001
 2025-07-05 15:16:41.365 INFO  [main] c.i.cold.eureka.EurekaApplication[59] - Started EurekaApplication in 3.657 seconds (JVM running for 4.016)
+2025-07-05 15:17:41.359 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 0ms
+2025-07-05 15:18:41.366 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 7ms
+2025-07-05 15:19:41.367 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 0ms
+2025-07-05 15:20:41.369 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 2ms
+2025-07-05 15:21:17.709 INFO  [http-nio-8001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-05 15:21:17.709 INFO  [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2025-07-05 15:21:17.713 INFO  [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2025-07-05 15:21:17.890 INFO  [http-nio-8001-exec-2] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 with status UP (replication=false)
+2025-07-05 15:21:41.373 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 4ms
+2025-07-05 15:22:41.387 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 13ms
+2025-07-05 15:23:41.394 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 7ms
+2025-07-05 15:24:41.397 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 2ms
+2025-07-05 15:25:41.407 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 9ms
+2025-07-05 15:26:41.249 WARN  [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes[155] - The replica size seems to be empty. Check the route 53 DNS Registry
+2025-07-05 15:26:41.419 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 11ms
+2025-07-05 15:27:41.421 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 2ms
+2025-07-05 15:28:41.432 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 11ms
+2025-07-05 15:29:41.440 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 8ms
+2025-07-05 15:30:41.443 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 2ms
+2025-07-05 15:31:41.265 INFO  [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl[539] - Current renewal threshold is : 3
+2025-07-05 15:31:41.451 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 8ms
+2025-07-05 15:32:41.462 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 11ms
+2025-07-05 15:33:41.473 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 10ms
+2025-07-05 15:34:41.478 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 5ms
+2025-07-05 15:35:41.481 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 3ms
+2025-07-05 15:36:41.255 WARN  [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes[155] - The replica size seems to be empty. Check the route 53 DNS Registry
+2025-07-05 15:36:41.484 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 2ms
+2025-07-05 15:37:41.493 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 9ms
+2025-07-05 15:38:41.508 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 14ms
+2025-07-05 15:39:41.521 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 12ms
+2025-07-05 15:40:41.526 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 5ms
+2025-07-05 15:41:41.538 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 12ms
+2025-07-05 15:42:41.538 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 0ms
+2025-07-05 15:43:41.550 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 11ms
+2025-07-05 15:44:41.559 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 9ms
+2025-07-05 15:45:41.570 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 11ms
+2025-07-05 15:46:41.269 INFO  [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl[539] - Current renewal threshold is : 3
+2025-07-05 15:46:41.269 WARN  [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes[155] - The replica size seems to be empty. Check the route 53 DNS Registry
+2025-07-05 15:46:41.577 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 6ms
+2025-07-05 15:47:41.587 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 10ms
+2025-07-05 15:48:41.595 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 7ms
+2025-07-05 15:49:41.607 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 12ms
+2025-07-05 15:50:41.608 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 0ms
+2025-07-05 15:51:41.617 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 8ms
+2025-07-05 15:52:41.623 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 6ms
+2025-07-05 15:53:41.632 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 8ms
+2025-07-05 15:54:41.635 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 3ms
+2025-07-05 15:55:41.644 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 9ms
+2025-07-05 15:56:41.279 WARN  [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes[155] - The replica size seems to be empty. Check the route 53 DNS Registry
+2025-07-05 15:56:41.652 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 7ms
+2025-07-05 15:57:41.661 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 9ms
+2025-07-05 15:58:41.663 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 2ms
+2025-07-05 15:59:41.670 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 6ms
+2025-07-05 16:00:41.675 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 5ms
+2025-07-05 16:01:41.284 INFO  [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl[539] - Current renewal threshold is : 3
+2025-07-05 16:01:41.685 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 9ms
+2025-07-05 16:02:41.697 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 12ms
+2025-07-05 16:03:41.707 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 9ms
+2025-07-05 16:03:54.108 INFO  [http-nio-8001-exec-3] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 with status DOWN (replication=false)
+2025-07-05 16:03:57.151 INFO  [http-nio-8001-exec-2] c.n.e.r.AbstractInstanceRegistry[330] - Cancelled instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 (replication=false)
+2025-07-05 16:04:08.874 INFO  [http-nio-8001-exec-6] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 with status UP (replication=false)
+2025-07-05 16:04:41.718 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 11ms
+2025-07-05 16:05:41.721 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 2ms
+2025-07-05 16:06:41.281 WARN  [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes[155] - The replica size seems to be empty. Check the route 53 DNS Registry
+2025-07-05 16:06:41.730 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 9ms
+2025-07-05 16:07:41.737 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 7ms
+2025-07-05 16:08:41.749 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 11ms
+2025-07-05 16:09:41.753 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 4ms
+2025-07-05 16:10:41.757 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 3ms
+2025-07-05 16:11:41.768 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 11ms
+2025-07-05 16:12:41.781 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 13ms
+2025-07-05 16:13:41.792 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 11ms
+2025-07-05 16:14:41.795 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 2ms
+2025-07-05 16:15:41.805 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 10ms
+2025-07-05 16:16:23.999 INFO  [http-nio-8001-exec-9] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 with status DOWN (replication=false)
+2025-07-05 16:16:27.042 INFO  [http-nio-8001-exec-6] c.n.e.r.AbstractInstanceRegistry[330] - Cancelled instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 (replication=false)
+2025-07-05 16:16:39.156 INFO  [http-nio-8001-exec-3] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 with status UP (replication=false)
+2025-07-05 16:16:41.293 INFO  [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl[539] - Current renewal threshold is : 3
+2025-07-05 16:16:41.293 WARN  [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes[155] - The replica size seems to be empty. Check the route 53 DNS Registry
+2025-07-05 16:16:41.805 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 0ms
+2025-07-05 16:17:41.811 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 5ms
+2025-07-05 16:17:46.920 INFO  [http-nio-8001-exec-7] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 with status DOWN (replication=false)
+2025-07-05 16:17:49.944 INFO  [http-nio-8001-exec-9] c.n.e.r.AbstractInstanceRegistry[330] - Cancelled instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 (replication=false)
+2025-07-05 16:17:58.337 INFO  [http-nio-8001-exec-1] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 with status UP (replication=false)
+2025-07-05 16:18:41.812 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 1ms
+2025-07-05 16:18:46.160 INFO  [http-nio-8001-exec-5] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 with status DOWN (replication=false)
+2025-07-05 16:18:49.189 INFO  [http-nio-8001-exec-4] c.n.e.r.AbstractInstanceRegistry[330] - Cancelled instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 (replication=false)
+2025-07-05 16:18:56.838 INFO  [http-nio-8001-exec-8] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 with status UP (replication=false)
+2025-07-05 16:19:41.814 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 1ms
+2025-07-05 16:20:41.827 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 13ms
+2025-07-05 16:21:41.835 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 8ms
+2025-07-05 16:22:41.846 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 10ms
+2025-07-05 16:23:41.849 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 2ms
+2025-07-05 16:24:38.306 INFO  [http-nio-8001-exec-2] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 with status DOWN (replication=false)
+2025-07-05 16:24:41.333 INFO  [http-nio-8001-exec-3] c.n.e.r.AbstractInstanceRegistry[330] - Cancelled instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 (replication=false)
+2025-07-05 16:24:41.864 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 15ms
+2025-07-05 16:24:49.936 INFO  [http-nio-8001-exec-7] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 with status UP (replication=false)
+2025-07-05 16:25:41.872 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 8ms
+2025-07-05 16:26:17.862 INFO  [http-nio-8001-exec-2] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 with status DOWN (replication=false)
+2025-07-05 16:26:20.895 INFO  [http-nio-8001-exec-4] c.n.e.r.AbstractInstanceRegistry[330] - Cancelled instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 (replication=false)
+2025-07-05 16:26:30.817 INFO  [http-nio-8001-exec-6] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 with status UP (replication=false)
+2025-07-05 16:26:41.296 WARN  [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes[155] - The replica size seems to be empty. Check the route 53 DNS Registry
+2025-07-05 16:26:41.887 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 15ms
+2025-07-05 16:27:41.892 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 4ms
+2025-07-05 16:28:41.906 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 13ms
+2025-07-05 16:29:41.906 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 0ms
+2025-07-05 16:30:41.916 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 10ms
+2025-07-05 16:31:41.308 INFO  [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl[539] - Current renewal threshold is : 3
+2025-07-05 16:31:41.930 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 13ms
+2025-07-05 16:32:41.930 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 0ms
+2025-07-05 16:33:41.945 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 14ms
+2025-07-05 16:33:56.258 INFO  [http-nio-8001-exec-8] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 with status DOWN (replication=false)
+2025-07-05 16:33:59.288 INFO  [http-nio-8001-exec-6] c.n.e.r.AbstractInstanceRegistry[330] - Cancelled instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 (replication=false)
+2025-07-05 16:34:10.646 INFO  [http-nio-8001-exec-3] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 with status UP (replication=false)
+2025-07-05 16:34:41.947 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 1ms
+2025-07-05 16:35:24.336 INFO  [http-nio-8001-exec-8] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 with status DOWN (replication=false)
+2025-07-05 16:35:27.364 INFO  [http-nio-8001-exec-6] c.n.e.r.AbstractInstanceRegistry[330] - Cancelled instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 (replication=false)
+2025-07-05 16:35:35.590 INFO  [http-nio-8001-exec-3] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 with status UP (replication=false)
+2025-07-05 16:35:41.951 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 4ms
+2025-07-05 16:35:42.246 INFO  [http-nio-8001-exec-5] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 with status DOWN (replication=false)
+2025-07-05 16:35:45.287 INFO  [http-nio-8001-exec-4] c.n.e.r.AbstractInstanceRegistry[330] - Cancelled instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 (replication=false)
+2025-07-05 16:35:53.873 INFO  [http-nio-8001-exec-8] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 with status UP (replication=false)
+2025-07-05 16:36:41.308 WARN  [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes[155] - The replica size seems to be empty. Check the route 53 DNS Registry
+2025-07-05 16:36:41.957 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 5ms
+2025-07-05 16:37:17.450 INFO  [http-nio-8001-exec-3] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 with status DOWN (replication=false)
+2025-07-05 16:37:20.479 INFO  [http-nio-8001-exec-5] c.n.e.r.AbstractInstanceRegistry[330] - Cancelled instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 (replication=false)
+2025-07-05 16:37:28.298 INFO  [http-nio-8001-exec-8] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 with status UP (replication=false)
+2025-07-05 16:37:41.957 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 0ms
+2025-07-05 16:38:41.969 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 11ms
+2025-07-05 16:39:19.769 INFO  [http-nio-8001-exec-9] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 with status DOWN (replication=false)
+2025-07-05 16:39:22.821 INFO  [http-nio-8001-exec-4] c.n.e.r.AbstractInstanceRegistry[330] - Cancelled instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 (replication=false)
+2025-07-05 16:39:32.841 INFO  [http-nio-8001-exec-10] c.n.e.r.AbstractInstanceRegistry[266] - Registered instance COLD-USER/DESKTOP-THE2ARB:cold-user:8185 with status UP (replication=false)
+2025-07-05 16:39:41.977 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 8ms
+2025-07-05 16:40:41.991 INFO  [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry[1250] - Running the evict task with compensationTime 13ms

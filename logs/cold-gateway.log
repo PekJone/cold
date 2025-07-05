@@ -1,0 +1,149 @@
+2025-07-05 16:59:38.501 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8e682f89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-05 16:59:38.722 INFO  [main] c.i.c.gateway.ColdGatewayApplication[648] - No active profile set, falling back to default profiles: default
+2025-07-05 16:59:39.056 INFO  [main] o.s.cloud.context.scope.GenericScope[295] - BeanFactory id=e2408f3a-7b05-3cf0-835f-991e06e67868
+2025-07-05 16:59:39.110 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8e682f89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-05 16:59:39.206 WARN  [main] c.n.c.sources.URLConfigurationSource[121] - No URLs will be polled as dynamic configuration sources.
+2025-07-05 16:59:39.206 INFO  [main] c.n.c.sources.URLConfigurationSource[122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-07-05 16:59:39.209 WARN  [main] c.n.c.sources.URLConfigurationSource[121] - No URLs will be polled as dynamic configuration sources.
+2025-07-05 16:59:39.209 INFO  [main] c.n.c.sources.URLConfigurationSource[122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-07-05 16:59:40.071 INFO  [main] o.s.c.g.r.RouteDefinitionRouteLocator[119] - Loaded RoutePredicateFactory [After]
+2025-07-05 16:59:40.071 INFO  [main] o.s.c.g.r.RouteDefinitionRouteLocator[119] - Loaded RoutePredicateFactory [Before]
+2025-07-05 16:59:40.072 INFO  [main] o.s.c.g.r.RouteDefinitionRouteLocator[119] - Loaded RoutePredicateFactory [Between]
+2025-07-05 16:59:40.072 INFO  [main] o.s.c.g.r.RouteDefinitionRouteLocator[119] - Loaded RoutePredicateFactory [Cookie]
+2025-07-05 16:59:40.072 INFO  [main] o.s.c.g.r.RouteDefinitionRouteLocator[119] - Loaded RoutePredicateFactory [Header]
+2025-07-05 16:59:40.072 INFO  [main] o.s.c.g.r.RouteDefinitionRouteLocator[119] - Loaded RoutePredicateFactory [Host]
+2025-07-05 16:59:40.072 INFO  [main] o.s.c.g.r.RouteDefinitionRouteLocator[119] - Loaded RoutePredicateFactory [Method]
+2025-07-05 16:59:40.072 INFO  [main] o.s.c.g.r.RouteDefinitionRouteLocator[119] - Loaded RoutePredicateFactory [Path]
+2025-07-05 16:59:40.072 INFO  [main] o.s.c.g.r.RouteDefinitionRouteLocator[119] - Loaded RoutePredicateFactory [Query]
+2025-07-05 16:59:40.072 INFO  [main] o.s.c.g.r.RouteDefinitionRouteLocator[119] - Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2025-07-05 16:59:40.073 INFO  [main] o.s.c.g.r.RouteDefinitionRouteLocator[119] - Loaded RoutePredicateFactory [RemoteAddr]
+2025-07-05 16:59:40.073 INFO  [main] o.s.c.g.r.RouteDefinitionRouteLocator[119] - Loaded RoutePredicateFactory [Weight]
+2025-07-05 16:59:40.073 INFO  [main] o.s.c.g.r.RouteDefinitionRouteLocator[119] - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-07-05 16:59:40.412 INFO  [main] o.s.c.n.eureka.InstanceInfoFactory[72] - Setting initial instance status as: STARTING
+2025-07-05 16:59:40.453 INFO  [main] c.netflix.discovery.DiscoveryClient[365] - Initializing Eureka in region us-east-1
+2025-07-05 16:59:40.671 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[70] - Using JSON encoding codec LegacyJacksonJson
+2025-07-05 16:59:40.671 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[71] - Using JSON decoding codec LegacyJacksonJson
+2025-07-05 16:59:40.760 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[80] - Using XML encoding codec XStreamXml
+2025-07-05 16:59:40.761 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[81] - Using XML decoding codec XStreamXml
+2025-07-05 16:59:40.877 INFO  [main] c.n.d.s.r.aws.ConfigClusterResolver[43] - Resolving eureka endpoints via configuration
+2025-07-05 16:59:40.979 INFO  [main] c.netflix.discovery.DiscoveryClient[976] - Disable delta property : false
+2025-07-05 16:59:40.979 INFO  [main] c.netflix.discovery.DiscoveryClient[977] - Single vip registry refresh property : null
+2025-07-05 16:59:40.979 INFO  [main] c.netflix.discovery.DiscoveryClient[978] - Force full registry fetch : false
+2025-07-05 16:59:40.979 INFO  [main] c.netflix.discovery.DiscoveryClient[979] - Application is null : false
+2025-07-05 16:59:40.980 INFO  [main] c.netflix.discovery.DiscoveryClient[980] - Registered Applications size is zero : true
+2025-07-05 16:59:40.980 INFO  [main] c.netflix.discovery.DiscoveryClient[982] - Application version is -1: true
+2025-07-05 16:59:40.980 INFO  [main] c.netflix.discovery.DiscoveryClient[1065] - Getting all instance registry info from the eureka server
+2025-07-05 16:59:41.087 INFO  [main] c.netflix.discovery.DiscoveryClient[1074] - The response status is 200
+2025-07-05 16:59:41.088 INFO  [main] c.netflix.discovery.DiscoveryClient[1288] - Starting heartbeat executor: renew interval is: 30
+2025-07-05 16:59:41.090 INFO  [main] c.n.discovery.InstanceInfoReplicator[60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-07-05 16:59:41.092 INFO  [main] c.netflix.discovery.DiscoveryClient[465] - Discovery Client initialized at timestamp 1751705981091 with initial instances count: 1
+2025-07-05 16:59:41.093 INFO  [main] o.s.c.n.e.s.EurekaServiceRegistry[41] - Registering application COLD-GATEWAY with eureka with status UP
+2025-07-05 16:59:41.093 INFO  [main] c.netflix.discovery.DiscoveryClient[1323] - Saw local status change event StatusChangeEvent [timestamp=1751705981093, current=UP, previous=STARTING]
+2025-07-05 16:59:41.094 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient[844] - DiscoveryClient_COLD-GATEWAY/DESKTOP-THE2ARB:cold-gateway:8080: registering service...
+2025-07-05 16:59:41.127 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient[853] - DiscoveryClient_COLD-GATEWAY/DESKTOP-THE2ARB:cold-gateway:8080 - registration status: 204
+2025-07-05 16:59:41.339 INFO  [main] o.s.b.w.e.netty.NettyWebServer[76] - Netty started on port(s): 8080
+2025-07-05 16:59:41.340 INFO  [main] o.s.c.n.e.s.EurekaAutoServiceRegistration[145] - Updating port to 8080
+2025-07-05 16:59:41.341 INFO  [main] c.i.c.gateway.ColdGatewayApplication[59] - Started ColdGatewayApplication in 3.504 seconds (JVM running for 3.929)
+2025-07-05 17:04:40.989 INFO  [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver[43] - Resolving eureka endpoints via configuration
+2025-07-05 17:06:50.241 INFO  [reactor-http-nio-3] c.n.config.ChainedDynamicProperty[115] - Flipping property: cold-user.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2025-07-05 17:06:50.271 INFO  [reactor-http-nio-3] c.n.u.c.ShutdownEnabledTimer[58] - Shutdown hook installed for: NFLoadBalancer-PingTimer-cold-user
+2025-07-05 17:06:50.271 INFO  [reactor-http-nio-3] c.n.loadbalancer.BaseLoadBalancer[197] - Client: cold-user instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=cold-user,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2025-07-05 17:06:50.276 INFO  [reactor-http-nio-3] c.n.l.DynamicServerListLoadBalancer[222] - Using serverListUpdater PollingServerListUpdater
+2025-07-05 17:06:50.291 INFO  [reactor-http-nio-3] c.n.config.ChainedDynamicProperty[115] - Flipping property: cold-user.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2025-07-05 17:06:50.293 INFO  [reactor-http-nio-3] c.n.l.DynamicServerListLoadBalancer[150] - DynamicServerListLoadBalancer for client cold-user initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=cold-user,current list of Servers=[DESKTOP-THE2ARB:8185],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:DESKTOP-THE2ARB:8185;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@74a1ab1
+2025-07-05 17:06:51.293 INFO  [PollingServerListUpdater-0] c.n.config.ChainedDynamicProperty[115] - Flipping property: cold-user.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2025-07-05 17:09:40.992 INFO  [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver[43] - Resolving eureka endpoints via configuration
+2025-07-05 17:14:40.996 INFO  [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver[43] - Resolving eureka endpoints via configuration
+2025-07-05 17:19:41.012 INFO  [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver[43] - Resolving eureka endpoints via configuration
+2025-07-05 17:24:41.020 INFO  [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver[43] - Resolving eureka endpoints via configuration
+2025-07-05 17:29:10.460 INFO  [Thread-12] c.n.l.PollingServerListUpdater[53] - Shutting down the Executor Pool for PollingServerListUpdater
+2025-07-05 17:29:10.461 INFO  [Thread-6] o.s.c.n.e.s.EurekaServiceRegistry[65] - Unregistering application COLD-GATEWAY with eureka with status DOWN
+2025-07-05 17:29:10.461 WARN  [Thread-6] c.netflix.discovery.DiscoveryClient[1321] - Saw local status change event StatusChangeEvent [timestamp=1751707750461, current=DOWN, previous=UP]
+2025-07-05 17:29:10.461 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient[844] - DiscoveryClient_COLD-GATEWAY/DESKTOP-THE2ARB:cold-gateway:8080: registering service...
+2025-07-05 17:29:10.464 INFO  [Thread-6] c.n.u.c.ShutdownEnabledTimer[67] - Shutdown hook removed for: NFLoadBalancer-PingTimer-cold-user
+2025-07-05 17:29:10.466 INFO  [Thread-6] c.n.u.c.ShutdownEnabledTimer[72] - Exception caught (might be ok if at shutdown)
+java.lang.IllegalStateException: Shutdown in progress
+	at java.lang.ApplicationShutdownHooks.remove(ApplicationShutdownHooks.java:82)
+	at java.lang.Runtime.removeShutdownHook(Runtime.java:239)
+	at com.netflix.util.concurrent.ShutdownEnabledTimer.cancel(ShutdownEnabledTimer.java:70)
+	at com.netflix.loadbalancer.BaseLoadBalancer.cancelPingTask(BaseLoadBalancer.java:632)
+	at com.netflix.loadbalancer.BaseLoadBalancer.shutdown(BaseLoadBalancer.java:883)
+	at com.netflix.loadbalancer.DynamicServerListLoadBalancer.shutdown(DynamicServerListLoadBalancer.java:285)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:339)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:273)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1036)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1029)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:975)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:92)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1036)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1029)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
+2025-07-05 17:29:10.473 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient[853] - DiscoveryClient_COLD-GATEWAY/DESKTOP-THE2ARB:cold-gateway:8080 - registration status: 204
+2025-07-05 17:29:10.476 INFO  [Thread-6] c.netflix.discovery.DiscoveryClient[906] - Shutting down DiscoveryClient ...
+2025-07-05 17:29:13.477 WARN  [DiscoveryClient-0] c.n.discovery.TimedSupervisorTask[88] - task supervisor shutting down, can't accept the task
+2025-07-05 17:29:13.477 INFO  [Thread-6] c.netflix.discovery.DiscoveryClient[940] - Unregistering ...
+2025-07-05 17:29:13.495 INFO  [Thread-6] c.netflix.discovery.DiscoveryClient[942] - DiscoveryClient_COLD-GATEWAY/DESKTOP-THE2ARB:cold-gateway:8080 - deregister  status: 200
+2025-07-05 17:29:13.499 INFO  [Thread-6] c.netflix.discovery.DiscoveryClient[929] - Completed shut down of DiscoveryClient
+2025-07-05 17:29:18.097 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$be97ca6f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-05 17:29:18.311 INFO  [main] c.i.c.gateway.ColdGatewayApplication[648] - No active profile set, falling back to default profiles: default
+2025-07-05 17:29:18.635 INFO  [main] o.s.cloud.context.scope.GenericScope[295] - BeanFactory id=ed8c37f5-d402-3df1-8bcb-27a4a8160b4a
+2025-07-05 17:29:18.690 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$be97ca6f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-05 17:29:18.765 WARN  [main] c.n.c.sources.URLConfigurationSource[121] - No URLs will be polled as dynamic configuration sources.
+2025-07-05 17:29:18.765 INFO  [main] c.n.c.sources.URLConfigurationSource[122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-07-05 17:29:18.769 WARN  [main] c.n.c.sources.URLConfigurationSource[121] - No URLs will be polled as dynamic configuration sources.
+2025-07-05 17:29:18.769 INFO  [main] c.n.c.sources.URLConfigurationSource[122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-07-05 17:29:19.648 INFO  [main] o.s.c.g.r.RouteDefinitionRouteLocator[119] - Loaded RoutePredicateFactory [After]
+2025-07-05 17:29:19.648 INFO  [main] o.s.c.g.r.RouteDefinitionRouteLocator[119] - Loaded RoutePredicateFactory [Before]
+2025-07-05 17:29:19.648 INFO  [main] o.s.c.g.r.RouteDefinitionRouteLocator[119] - Loaded RoutePredicateFactory [Between]
+2025-07-05 17:29:19.649 INFO  [main] o.s.c.g.r.RouteDefinitionRouteLocator[119] - Loaded RoutePredicateFactory [Cookie]
+2025-07-05 17:29:19.649 INFO  [main] o.s.c.g.r.RouteDefinitionRouteLocator[119] - Loaded RoutePredicateFactory [Header]
+2025-07-05 17:29:19.649 INFO  [main] o.s.c.g.r.RouteDefinitionRouteLocator[119] - Loaded RoutePredicateFactory [Host]
+2025-07-05 17:29:19.649 INFO  [main] o.s.c.g.r.RouteDefinitionRouteLocator[119] - Loaded RoutePredicateFactory [Method]
+2025-07-05 17:29:19.649 INFO  [main] o.s.c.g.r.RouteDefinitionRouteLocator[119] - Loaded RoutePredicateFactory [Path]
+2025-07-05 17:29:19.649 INFO  [main] o.s.c.g.r.RouteDefinitionRouteLocator[119] - Loaded RoutePredicateFactory [Query]
+2025-07-05 17:29:19.649 INFO  [main] o.s.c.g.r.RouteDefinitionRouteLocator[119] - Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2025-07-05 17:29:19.649 INFO  [main] o.s.c.g.r.RouteDefinitionRouteLocator[119] - Loaded RoutePredicateFactory [RemoteAddr]
+2025-07-05 17:29:19.649 INFO  [main] o.s.c.g.r.RouteDefinitionRouteLocator[119] - Loaded RoutePredicateFactory [Weight]
+2025-07-05 17:29:19.650 INFO  [main] o.s.c.g.r.RouteDefinitionRouteLocator[119] - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-07-05 17:29:19.976 INFO  [main] o.s.c.n.eureka.InstanceInfoFactory[72] - Setting initial instance status as: STARTING
+2025-07-05 17:29:20.009 INFO  [main] c.netflix.discovery.DiscoveryClient[365] - Initializing Eureka in region us-east-1
+2025-07-05 17:29:20.227 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[70] - Using JSON encoding codec LegacyJacksonJson
+2025-07-05 17:29:20.228 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[71] - Using JSON decoding codec LegacyJacksonJson
+2025-07-05 17:29:20.321 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[80] - Using XML encoding codec XStreamXml
+2025-07-05 17:29:20.322 INFO  [main] c.n.d.p.DiscoveryJerseyProvider[81] - Using XML decoding codec XStreamXml
+2025-07-05 17:29:20.445 INFO  [main] c.n.d.s.r.aws.ConfigClusterResolver[43] - Resolving eureka endpoints via configuration
+2025-07-05 17:29:20.535 INFO  [main] c.netflix.discovery.DiscoveryClient[976] - Disable delta property : false
+2025-07-05 17:29:20.536 INFO  [main] c.netflix.discovery.DiscoveryClient[977] - Single vip registry refresh property : null
+2025-07-05 17:29:20.536 INFO  [main] c.netflix.discovery.DiscoveryClient[978] - Force full registry fetch : false
+2025-07-05 17:29:20.536 INFO  [main] c.netflix.discovery.DiscoveryClient[979] - Application is null : false
+2025-07-05 17:29:20.536 INFO  [main] c.netflix.discovery.DiscoveryClient[980] - Registered Applications size is zero : true
+2025-07-05 17:29:20.536 INFO  [main] c.netflix.discovery.DiscoveryClient[982] - Application version is -1: true
+2025-07-05 17:29:20.536 INFO  [main] c.netflix.discovery.DiscoveryClient[1065] - Getting all instance registry info from the eureka server
+2025-07-05 17:29:20.641 INFO  [main] c.netflix.discovery.DiscoveryClient[1074] - The response status is 200
+2025-07-05 17:29:20.643 INFO  [main] c.netflix.discovery.DiscoveryClient[1288] - Starting heartbeat executor: renew interval is: 30
+2025-07-05 17:29:20.645 INFO  [main] c.n.discovery.InstanceInfoReplicator[60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-07-05 17:29:20.647 INFO  [main] c.netflix.discovery.DiscoveryClient[465] - Discovery Client initialized at timestamp 1751707760646 with initial instances count: 2
+2025-07-05 17:29:20.648 INFO  [main] o.s.c.n.e.s.EurekaServiceRegistry[41] - Registering application COLD-GATEWAY with eureka with status UP
+2025-07-05 17:29:20.649 INFO  [main] c.netflix.discovery.DiscoveryClient[1323] - Saw local status change event StatusChangeEvent [timestamp=1751707760649, current=UP, previous=STARTING]
+2025-07-05 17:29:20.650 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient[844] - DiscoveryClient_COLD-GATEWAY/DESKTOP-THE2ARB:cold-gateway:8080: registering service...
+2025-07-05 17:29:20.684 INFO  [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient[853] - DiscoveryClient_COLD-GATEWAY/DESKTOP-THE2ARB:cold-gateway:8080 - registration status: 204
+2025-07-05 17:29:20.880 INFO  [main] o.s.b.w.e.netty.NettyWebServer[76] - Netty started on port(s): 8080
+2025-07-05 17:29:20.881 INFO  [main] o.s.c.n.e.s.EurekaAutoServiceRegistration[145] - Updating port to 8080
+2025-07-05 17:29:20.882 INFO  [main] c.i.c.gateway.ColdGatewayApplication[59] - Started ColdGatewayApplication in 3.478 seconds (JVM running for 3.865)
