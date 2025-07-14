@@ -17,6 +17,7 @@
         <module>cold-eureka</module>
         <module>cold-user</module>
         <module>cold-gateway</module>
+        <module>cold-admin</module>
     </modules>
 
     <properties>
