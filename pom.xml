@@ -18,6 +18,7 @@
         <module>cold-user</module>
         <module>cold-gateway</module>
         <module>cold-admin</module>
+        <module>cold-netty</module>
     </modules>
 
     <properties>
