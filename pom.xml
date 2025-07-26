@@ -20,6 +20,7 @@
         <module>cold-admin</module>
         <module>cold-netty</module>
         <module>cold-flink</module>
+        <module>cold-concert</module>
     </modules>
 
     <properties>
