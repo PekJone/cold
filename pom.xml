@@ -21,6 +21,7 @@
         <module>cold-netty</module>
         <module>cold-flink</module>
         <module>cold-concert</module>
+        <module>cold-monitor</module>
     </modules>
 
     <properties>
