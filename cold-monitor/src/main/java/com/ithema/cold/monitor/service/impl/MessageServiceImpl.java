@@ -6,9 +6,8 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.ithema.cold.common.admin.dao.MessageDao;
 import com.ithema.cold.common.netty.MessageEntity;
-import com.ithema.cold.common.utils.PageUtils;
 import com.ithema.cold.monitor.service.MessageService;
-import io.swagger.models.auth.In;
+import org.springframework.stereotype.Service;
 
 import java.util.Map;
 
@@ -17,6 +16,7 @@ import java.util.Map;
  * @version 1.0
  * @date 2025-07-26  11:29
  */
+@Service("messageService")
 public class MessageServiceImpl  extends ServiceImpl<MessageDao, MessageEntity> implements MessageService {
     @Override
     public IPage queryMessageRealTime(Map<String, Object> params) {
