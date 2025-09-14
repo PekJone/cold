@@ -25,6 +25,7 @@ public class ThreadPoolConfig {
     public ExecutorService ticketProcessingPool(){
         return Executors.newFixedThreadPool(10);
     }
+
     @Bean(name = "userRequestQueue")
     public PriorityBlockingQueue<UserRequest> userRequestQueue(){
         return new PriorityBlockingQueue<>(1000, Comparator.comparingInt(UserRequest::getPriority).reversed());

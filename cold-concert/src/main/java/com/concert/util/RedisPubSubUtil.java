@@ -24,11 +24,11 @@ public class RedisPubSubUtil {
     public RedisPubSubUtil(RedisTemplate<String,Object> redisTemplate,RedisMessageListenerContainer container){
         this.redisTemplate = redisTemplate;
         this.container = container;
-    }
-    @PostConstruct
-    public void init(){
-        container.addMessageListener(new MessageListener() {
-            @Override
+        }
+        @PostConstruct
+        public void init(){
+            container.addMessageListener(new MessageListener() {
+                @Override
             public void onMessage(Message message, byte[] pattern) {
                 String channel = new String(message.getChannel());
                 String msg = new String(message.getBody());

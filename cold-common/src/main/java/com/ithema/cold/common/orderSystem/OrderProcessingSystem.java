@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
  * @version 1.0
  * @date 2025-07-24  19:14
  */
-public class OrderProcessingSystem {
+    public class OrderProcessingSystem {
     private final ThreadPoolExecutor orderProcessingPool;
     private final PaymentService paymentService;
 

@@ -274,7 +274,7 @@ public class JedisUtil implements Serializable {
          * @return List<String> 集合的全部记录
          * **/
         public List<String> sort(String key) {
-            //ShardedJedis sjedis = getShardedJedis();
+            //ShardedJedis sjedis = getShardedJedis();0
             Jedis sjedis=getJedis();
             List<String> list = sjedis.sort(key);
             returnJedis(sjedis);

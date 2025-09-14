@@ -37,7 +37,7 @@ public class FixedStringJob{
             SingleOutputStreamOperator<Tuple2<String, Integer>> result = stream
                     .flatMap(
                             (String value, Collector<Tuple2<String, Integer>> out) -> {
-                                String[] words = value.split(" ");
+                                String[] words = value.split(            " ");
                                 for (String word : words) {
                                     out.collect(Tuple2.of(word, 1));
                                 }
