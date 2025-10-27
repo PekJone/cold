@@ -23,7 +23,7 @@ public class SmartFallbackPolicy implements RejectedExecutionHandler {
             FallBackTask<?> task = (FallBackTask<?>) r;
             Metrics.counter("threadPool.rejected.tasks").increment();
             try{
-                logger.warn("Task rejected ,executing fallback{}",r.toString());
+                logger.warn("TaskProcessor rejected ,executing fallback{}",r.toString());
                 task.fallBack();
             }catch (Exception e){
                 logger.error("Fallback execution failed");
@@ -32,7 +32,7 @@ public class SmartFallbackPolicy implements RejectedExecutionHandler {
         }else {
             logger.warn("Non-fallback task rejected {}",r.toString());
             Metrics.counter("threadPool.rejected.standard.tasks").increment();
-            throw new RejectedExecutionException("Task"+ r.toString()+" reject from"+ executor.toString());
+            throw new RejectedExecutionException("TaskProcessor"+ r.toString()+" reject from"+ executor.toString());
         }
     }
 

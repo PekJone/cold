@@ -8,7 +8,7 @@ import lombok.Data;
 @Data
 public class MyException extends RuntimeException {
 	private static final long serialVersionUID = 1L;
-	
+
     private String msg;
     private int code = 500;
     
